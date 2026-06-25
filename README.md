@@ -13,6 +13,13 @@ This project exposes the `IMusicDomosDomainContainer` abstraction used by the mu
 
 This project expects these sibling projects to be available when building from the solution or from extracted submodules:
 
+Direct project references:
+
 - `Grammophone.DataAccess`
 - `Grammophone.Domos.DataAccess`
 - `Grammophone.Domos.Tests.Music.Domain`
+
+Additional transitive project references:
+
+- `Grammophone.Domos.Domain`
+- `Grammophone.GenericContentModel`
